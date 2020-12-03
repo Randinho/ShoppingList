@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "144370416403",
+    "firebase_url": "https://shoppinglist-118ee-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "shoppinglist-118ee",
+    "storage_bucket": "shoppinglist-118ee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:144370416403:android:4d70d7b17a26d3077b78e6",
+        "android_client_info": {
+          "package_name": "com.example.shoppinglist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "144370416403-lmeo149a1q4sskhk1capvhobc0i24svh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shoppinglist",
+            "certificate_hash": "63ece4690a602df043680b61d61b84a412adbb4b"
+          }
+        },
+        {
+          "client_id": "144370416403-f07fu21gilon9b7omk7vfvvcggcnpcu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVTp8c3v3wYS-FOWEIDYbRBOyCg_lDKdk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "144370416403-f07fu21gilon9b7omk7vfvvcggcnpcu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
