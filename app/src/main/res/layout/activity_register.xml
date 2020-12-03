@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/registerPageTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:gravity="center"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:id="@+id/registerEmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/registerEmailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/registerPasswordTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:gravity="center"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/registerPasswordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="" />
+
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:onClick="registerUser"
+        android:layout_gravity="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/registerGoBackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go back"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:onClick="goBack"/>
+</LinearLayout>
