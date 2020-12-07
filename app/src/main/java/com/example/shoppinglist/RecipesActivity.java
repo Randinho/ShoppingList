@@ -128,6 +128,17 @@ public class RecipesActivity extends AppCompatActivity {
 
                 }
             });
+
+            itemView.setOnLongClickListener(new View.OnLongClickListener() {
+                @Override
+                public boolean onLongClick(View v) {
+                    db.collection("recipes").document(recipeId).delete();
+                    finish();
+                    startActivity(getIntent());
+
+                    return true;
+                }
+            });
         }
 
         void setRecipeName(String recipeName){

@@ -12,6 +12,7 @@ public class Recipe {
 
     private String name;
     private String userId;
+    private String path;
 
     public Recipe() {
 
@@ -38,5 +39,13 @@ public class Recipe {
 
     public void setUserId(String userId) {
         this.userId = userId;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 }
